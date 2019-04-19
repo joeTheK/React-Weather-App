@@ -7,8 +7,7 @@ export class Day extends Component {
       background: '#f4f4f4',
       padding : '10px',
       border: this.props.dailyWeather.id === dayOfWeek ?
-      '2px #f00 solid' : 'none',
-      borderBottom: '1px #ccc dotted'
+      '2px #f00 solid' : '1px #ccc dotted'
     }
   }
 
