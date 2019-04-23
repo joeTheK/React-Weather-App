@@ -44,7 +44,7 @@ class App extends Component {
       },      
       {
         id: 7,
-        day: "sun",
+        day: "Sun",
         temp_min: 54,
         temp_max: 61, 
       }
@@ -55,7 +55,9 @@ class App extends Component {
     return (
       <div className="App">
         <h1> Weekly Weather </h1>
-        <Week weather={this.state.week} />
+        <div className="flex-container">
+          <Week weather={this.state.week} />
+        </div>
       </div>
     );
   }

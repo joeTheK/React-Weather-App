@@ -31,3 +31,23 @@
     transform: rotate(360deg);
   }
 }
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.card {
+  background: #a1a1a1;
+  height: 150px;
+  width: 100px;
+  text-align: center;
+  color: #efefef;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.dayOfWeek {
+  padding-top: 30%;
+}
